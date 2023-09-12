@@ -1,0 +1,33 @@
+{
+  "name": "data-share",
+  "version": "1.0.0",
+  "description": "This is a lightweight global data common state management component compatible with vue2 and vue3;这是一个兼容 vue2 和 vue3 的轻量级全局数据公共状态管理组件",
+  "main": "./index.js",
+  "author": "AyongNice@163.com",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AyongNice/data-share"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "vuex",
+    "storage",
+    "轻量级全局数据共享",
+    "Lightweight global data sharing",
+    "vue2",
+    "vue3"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.2.1"
+  },
+  "dependencies": {
+    "relational-indexdb": "^1.0.8",
+    "vue-demi": "^0.14.6"
+  }
+}
