@@ -29,7 +29,7 @@ This is a lightweight global data common state management component compatible w
 ### 三: 他应该如果下载使用?
 
 ```
-npm i  data-share
+npm i  vue-data-share
 ```
 
 ## 介绍下该库方法信息
