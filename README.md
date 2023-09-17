@@ -2,7 +2,7 @@
 
 # 轻量 小 简约 而不简单  好学不难
 
-# vue-data-share 
+# vue-data-share
 
 ## 组件公共数据状态共享
 
@@ -12,7 +12,7 @@ This is a lightweight global data common state management component compatible w
 
 组件库作者: Ayong
 
-作者微信 非诚勿扰 :X154001888 
+作者微信 非诚勿扰 :X154001888
 
 组件库源码GitHub地址:https://github.com/AyongNice/data-share
 
@@ -22,28 +22,28 @@ This is a lightweight global data common state management component compatible w
 
 ### 二 : 他可以帮你做什么?
 
-**他可以帮你在vue框架中实现 跨组件进行数据共享!** 
-设置原始数据、获取全局数据、设置全局数据、夸组件通信消息订阅等功能
+**他可以帮你在vue框架中实现 跨组件进行数据共享!**
 
 说到vue跨组件数据共享大家会想到 vueX. pain 等组件 该组件与她不同点在于 他是一个非常轻量级别 **只有4KB大小** 并且 他是一个非常容易掌握学习的组件,使用起来非常简单, 我们经常称之为 **无脑傻瓜式用法**!  但是我们不是傻瓜 我们都是**优秀有趣的前端工程师**
 
 ### 三: 他应该如果下载使用?
 
 ```
-npm i  vue-data-share
+npm i  data-share
 ```
 
 ## 介绍下该库方法信息
 
-| 方法名         | 介绍               | 入参字段         | 入参介绍是否缓存数据                                         |
-| -------------- | ------------------ | ---------------- | ------------------------------------------------------------ |
+| 方法名         | 介绍               | 入参字段             | 入参介绍是否缓存数据                               |
+| -------------- | ------------------ |------------------|------------------------------------------|
 | VueDataShare   | 组件构造函数       | Object<Parma>    | Parma全局数据共享组件的配置信息见下方详情介绍                |
-| setInitialData | 原始公共数据       | Object<any,any>  | 原始数据 通常在mian.js文件设置可以设置全局的 基础数据 对象以及 函数 |
-| get            | 获取全局基本数据值 | string           | 传入原始数据字段的key 即可响应式的获取数据                   |
-| set            | 设置全局基本数据值 | string           | 传入原始数据字段的key 即可响应式的设置数据                   |
+| setInitialData | 原始公共数据       | Object<any,any>  | 原始数据 通常在mian.js文件设置可以设置全局的 基础数据 对象以及 函数  |
+| get            | 获取全局基本数据值 | string           | 传入原始数据字段的key 即可响应式的获取数据                  |
+| set            | 设置全局基本数据值 | string           | 传入原始数据字段的key 即可响应式的设置数据                  |
 | callFunction   | 调用公共方法       | string ,args     | 第一个参数为传入原始数据函数名的key  方法入参数,第二个参数为 该方法的入参 |
-| register       | 消息订阅事件       | string, Funticon | 定于一个函数名,以及函数体.使用示例见下方                     |
-| publish        | 消息事件发布       | string ,args     | 发布制定的消息事件名称,传入函数参数使用示例见下方            |
+| register       | 消息订阅事件       | string, Funticon | 定于一个函数名,以及函数体.使用示例见下方                    |
+| publish        | 消息事件发布       | string ,args     | 发布制定的消息事件名称,传入函数参数使用示例见下方                |
+| deleteSnapshot        | 删除缓存记录       | -                | 删除缓存数据                                   |
 
 ## Parma 字段介绍
 
@@ -290,5 +290,5 @@ const vueDataSharePage = () => {
 
 **其他所有的功能以及使用方式 vue2版本与vue3都一样的,这里我们不在重复描述每一个方法功能**
 
-## 轻量 小 简约 而不简单 好学不难
+## 轻量 小 简约 而不简单 好学不难 
 
